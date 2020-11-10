@@ -9,49 +9,62 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Daniyal Talat',
+  subtitle: 'I am a Node.js back-end developer',
+  cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'I am a self-motivated backend developer with a passion for all things JavaScript and a strong inclination towards employing the best practices for writing clean code and devising maintainable, and reusable architecture. ',
+  paragraphTwo:
+    'Bringing forth a research-oriented mindset in solving complex problems with a penchant for building secure APIs and functionally correct features of an application, my goal is to become an efficient software developer with the knowledge and expertise to provide solutions to complex and difficult problems',
+  paragraphThree:
+    'I am looking for back-end node.js positions in an organization that provides collaborative environment, and challenging tasks in order to hone my skills and increase my knowledge.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.jpg',
+    title: 'Social Media Backend APIs',
+    info: 'Backend RESTFUL APIs for Social Media',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/daniyaldev2k20/social-media', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.jpg',
+    title: 'Chat Application',
+    info: 'A chat application implemented using Socket.io',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/daniyaldev2k20/Real-time-chat-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.jpg',
+    title: 'History Web Scraper',
+    info:
+      'Web scraper implemented in NodeJS which scrapes daily featured articles and biographies pertaining to history from Wikipedia',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/daniyaldev2k20/Simple-web-scraper', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Natours Tour Application',
+    info: 'Tour Application along with user management system. ',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/daniyaldev2k20/Tour-app', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +72,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'daniyaltalat733@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +80,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/daniyal-talat-b0a7761b6/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/daniyaldev2k20',
     },
   ],
 };
